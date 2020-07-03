@@ -66,7 +66,6 @@ int main()
 	}
 	free(str);
 	free(docker_rm);
-	system("docker image rm img ; rm docker_rm.txt");
+	system("docker image rm img ; rm docker_rm.txt");//pour ma defense, je rentrais d'une soirée bien arrosée...
 	return (0);
-
 }
